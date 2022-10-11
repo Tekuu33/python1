@@ -1,3 +1,4 @@
+import seaborn as sns
 from matplotlib.pyplot import figure, show, cm
 from numpy import arange
 from numpy.random import rand

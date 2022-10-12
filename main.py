@@ -18,7 +18,6 @@ df1 = pandas.read_csv("QAC3.csv")
 sns.barplot(y='Group',
             x='Log',
             hue = "Group",
-            ci = None,
             dodge = False,
             errcolor = "gray",
             data=df1)

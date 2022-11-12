@@ -13,6 +13,7 @@ import numpy as np
 #            data=df)
 
 # Show the plot
+ff = 23 -1
 df1 = pandas.read_csv("QAC3.csv")
 #xd = sns.load_dataset("df1")
 sns.barplot(y='Group',
@@ -28,3 +29,4 @@ plt.grid(axis="x", color = "gray")
 
 
 plt.show()
+
